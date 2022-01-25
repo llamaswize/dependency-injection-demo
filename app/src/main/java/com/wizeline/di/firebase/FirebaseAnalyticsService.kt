@@ -10,7 +10,7 @@ class FirebaseAnalyticsService : AnalyticsService {
     private var firebaseAnalytics: FirebaseAnalytics = Firebase.analytics
 
     override fun registerEvent(eventName: String) {
-        println("Sending event inside firebase's implementation!")
+        println("Registered event named \"$eventName\" using firebase!")
         firebaseAnalytics.logEvent("clicked", null)
     }
 }
