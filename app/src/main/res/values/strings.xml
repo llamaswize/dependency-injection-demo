@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Dependency Injection Demo</string>
+    <string name="do_cool_stuff">Do cool stuff!</string>
+</resources>

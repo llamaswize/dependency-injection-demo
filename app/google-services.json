@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "1025178286204",
+    "project_id": "soyllamas-heroes",
+    "storage_bucket": "soyllamas-heroes.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1025178286204:android:22963a1af89824bf8331f9",
+        "android_client_info": {
+          "package_name": "com.wizeline.di"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1025178286204-cfe2qa77tgkct27goto12d5d2t6ekono.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDD7KAKm6t6IZ7HzAch0uT_vJwYguTY894"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1025178286204-cfe2qa77tgkct27goto12d5d2t6ekono.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1025178286204:android:b97fb5321f72b3548331f9",
+        "android_client_info": {
+          "package_name": "com.wizeline.heroes"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1025178286204-cfe2qa77tgkct27goto12d5d2t6ekono.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDD7KAKm6t6IZ7HzAch0uT_vJwYguTY894"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1025178286204-cfe2qa77tgkct27goto12d5d2t6ekono.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
