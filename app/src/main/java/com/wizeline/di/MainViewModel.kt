@@ -7,11 +7,11 @@ import com.google.firebase.ktx.Firebase
 
 class MainViewModel : ViewModel() {
 
-    private var firebaseAnalytics: FirebaseAnalytics = Firebase.analytics
+    private var coolAnalytics = CoolAnalytics()
 
     fun doCoolStuff() {
         println("Doing cool stuff!")
-        firebaseAnalytics.logEvent("clicked", null)
+        coolAnalytics.registerEvent("clicked")
     }
 
 }
