@@ -1,17 +1,16 @@
-package com.wizeline.di
+package com.wizeline.di.firebase
 
-import androidx.lifecycle.ViewModel
 import com.google.firebase.analytics.FirebaseAnalytics
 import com.google.firebase.analytics.ktx.analytics
 import com.google.firebase.ktx.Firebase
+import com.wizeline.di.domain.AnalyticsService
 
-class MainViewModel : ViewModel() {
+class FirebaseAnalyticsService : AnalyticsService {
 
     private var firebaseAnalytics: FirebaseAnalytics = Firebase.analytics
 
-    fun doCoolStuff() {
-        println("Doing cool stuff!")
+    override fun registerEvent(eventName: String) {
+        println("Sending event inside firebase's implementation!")
         firebaseAnalytics.logEvent("clicked", null)
     }
-
 }
